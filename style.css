@@ -112,11 +112,25 @@ body {
 }
 
 .main__information {
-    width: 100%;
+    width: auto;
     height: 596px;
     background-image: url(../image/backgraundfon_mob.jpg);
 }
 
-.information__text {
+.text__head, .text__text {
+    padding-left: 26px;
+    padding-right: 26px;
+    letter-spacing: 0.04em;    
+}
+
+.text__head {
     padding-top: 27px;
+    font-size: 30px;
+    line-height: 100%;
+}
+
+.text__text {
+    padding-top: 19px;
+    font-size: 20px;
+    line-height: 22px;
 }
