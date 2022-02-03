@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-text: #5E2813;
+    --color-backgraund-light: #FAEAB4;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    color: var(--color-text);
+    font-family: 'Forum', cursive;
+}
+
+.header {
+    padding-left: 26px;
+    padding-right: 37px;
+    width: 100%;
+    height: 80px;
+    background-color: var(--color-backgraund-light);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 130px;
+    height: 50px;
+}
+
+.header__menu-btn {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	z-index:2;
+	overflow: hidden;
+}
+
+.header__menu-btn span {
+	width: 25px;
+	height: 2px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: var(--color-text);
+	transition: all 0.5s;
+}
+
+.header__menu-btn span:nth-of-type(2) {
+	top: calc(50% - 6px);
+}
+
+.header__menu-btn span:nth-of-type(3) {
+	top: calc(50% + 6px);
+}
+
+.header__menu-btn.active span:nth-of-type(1) {
+    display: none;
+  }
+
+.header__menu-btn.active span:nth-of-type(2) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(45deg);  
+  }
+
+.header__menu-btn.active span:nth-of-type(3) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(-45deg); 
+  }
+
+.header__menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    background: var(--color-backgraund-light);
+	transform: translateX(-100%);
+	transition: transform 0.5s;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.07em; 
+}
+
+.header__menu.active {
+	transform: translateX(0);
+}
+
+.header__menu li {
+	list-style-type: none;
+    padding-top: 33px;
+}
+
+.menu-mob__link {
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.menu-mob__link:active, .menu-mob__link:hover, .menu-mob__link:focus {
+    text-shadow: 0px 0px 4px #5D2814;
+}
+
+.main__information {
+    width: 100%;
+    height: 596px;
+    background-image: url(../image/backgraundfon_mob.jpg);
+}
+
+.information__text {
+    padding-top: 27px;
+}
