@@ -177,6 +177,12 @@ img {
     display: flex;
     justify-content: center;
   }
+
+  .list__link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
   
   /* Navigation item styles */
   div.sim-slider__arrow-left,
@@ -232,3 +238,90 @@ img {
     border-radius: 5px;
     cursor: pointer;
   }
+
+  .main__news {
+    padding-bottom: 35px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .news, .nav {
+    color: var(--color-text);
+    font-family: 'Forum', cursive;
+  }
+
+  .news__head {
+    margin-top: 35px;
+    font-size: 40px;
+    font-weight: lighter;
+    line-height: 44px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+
+  .news__link, .news__text {
+    margin-top: 17px;
+  }
+
+  .news__link {
+    display: flex;
+    justify-content: center;
+  }
+
+  .news__text {
+    width: 80%;
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .uppercase {
+    text-transform: uppercase;
+  }
+
+.footer {
+  padding-top: 27px;
+  width: 100%;
+  background-color: var(--color-backgraund-light);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__image {
+  width: 156px;
+}
+
+.footer__nav {
+  margin-top: 30px;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nav {
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.07em;
+}
+
+.nav__link {
+  padding: 15px 15px;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  text-shadow: var(--color-text) 1px 0 8px;;
+}
+
+.contarts__head {
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
