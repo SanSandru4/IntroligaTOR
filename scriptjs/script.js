@@ -1,10 +1,20 @@
 const menuBtn = document.querySelector('[data-menu-btn]');
 const menu = document.querySelector('[data-menu]');
+const preloaderEl = document.querySelector('[data-preloader]'); 
 
 menuBtn.addEventListener('click', function(){
     menuBtn.classList.toggle('active');
 	menu.classList.toggle('active');
 });
+
+window.addEventListener('load', () => {
+    setTimeout(() => {
+        if (!preloaderEl.classList.contains('done')) {
+            preloaderEl.classList.add('done');
+        }
+    }, 1000);
+});
+
 
 function Ant(crslId) {
 
