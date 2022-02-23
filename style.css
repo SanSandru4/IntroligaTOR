@@ -12,6 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #FFF;
 }
 
 
@@ -218,7 +219,7 @@ body {
 
 .main__information {
 	padding-bottom: 25px;
-  background-image: url(../image/backgraundfon_mob.jpg);
+  background-image: url("image/backgraundfon_mob.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -267,9 +268,8 @@ div.ant-carousel-arrow-left {
   text-align: center;
 }
 
-/* General styles */
 .ant-carousel {
-width: auto;
+  width: auto;
   position: relative;
 }
 
@@ -506,7 +506,7 @@ span.ant-dot {
     max-width: 1204px;
   }
   .main__information {
-    background-image: url(../image/backgraundfon_desktop.jpg);
+    background-image: url("image/backgraundfon_desktop.jpg");
   }
   .main__information, .main__about {
     padding: 0;
@@ -626,14 +626,12 @@ span.ant-dot {
     display: none;
   }
   .main {
-    min-width: 911px;
+    min-width: 100%;
     max-width: 1199px;
   }
   .main__information {
     padding: 0;
-    width: 100%;
-    background-image: url(../image/backgraundfon_desktop.jpg);
-    background-size: cover;
+    background-image: url("image/backgraundfon_desktop.jpg");
   }
   .main-text__head {
     max-width: 350px;
@@ -676,13 +674,12 @@ span.ant-dot {
     display: none;
   }
   .main {
-    min-width: 641px;
+    min-width: 100%;
     max-width: 910px;
   }
   .main__information {
     padding: 0;
-    width: 100%;
-    background-image: url(../image/backgraundfon_tablet.jpg);
+    background-image: url("image/backgraundfon_tablet.jpg");
   }
   .main-text__head {
     max-width: 350px;
