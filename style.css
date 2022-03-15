@@ -492,6 +492,11 @@ span.ant-dot {
   width: 200px;
 }
 
+.information__link {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
 .footer__line {
   margin-top: 20px;
   margin-left: auto;
