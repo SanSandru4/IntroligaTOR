@@ -224,7 +224,7 @@ body {
   background-size: cover;
 }
 
-.main__about {
+.main__data {
   padding-bottom: 25px;
 }
 
@@ -248,6 +248,21 @@ body {
   padding-top: 19px;
   font-size: 20px;
   line-height: 22px;
+}
+
+.main__contacts {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main__map {
+  margin-top: 25px;
+}
+
+.google__map {
+  width: 100%;
+  height: 530px;
 }
 	
 div.ant-carousel-arrow-left {
@@ -508,7 +523,7 @@ span.ant-dot {
   .main__information {
     background-image: url("image/backgraundfon_desktop.jpg");
   }
-  .main__information, .main__about {
+  .main__information, .main__data {
     padding: 0;
     padding-bottom: 60px;
     width: 1200px;
@@ -610,6 +625,9 @@ span.ant-dot {
     padding-bottom: 15px;
     width: 270px;
   }
+  .informatoin__block-contacts {
+    margin-left: 75px;
+  }
   .information__footer-text {
     padding-right: 0;
   }
@@ -633,6 +651,12 @@ span.ant-dot {
     padding: 0;
     background-image: url("image/backgraundfon_desktop.jpg");
   }
+  .main__contacts {
+    width: 80%;
+  }
+  .informatoin__block-contacts {
+    margin-left: 55px;
+  }
   .main-text__head {
     max-width: 350px;
     font-size: 48px;
@@ -654,7 +678,6 @@ span.ant-dot {
     justify-content: center;
   }
   .informatoin__block {
-    margin-left: 0;
     padding-bottom: 15px;
     width: 270px;
   }
@@ -681,6 +704,12 @@ span.ant-dot {
     padding: 0;
     background-image: url("image/backgraundfon_tablet.jpg");
   }
+  .main__contacts {
+    width: 100%;
+  }
+  .informatoin__block-contacts {
+    margin-left: 55px;
+  }
   .main-text__head {
     max-width: 350px;
     font-size: 48px;
@@ -702,7 +731,6 @@ span.ant-dot {
     justify-content: center;
   }
   .informatoin__block {
-    margin-left: 0;
     padding-bottom: 15px;
     width: 270px;
   }
@@ -725,6 +753,12 @@ span.ant-dot {
     min-width: 491px;
     max-width: 640px;
   }
+  .main__contacts {
+    width: 100%;
+  }
+  .informatoin__block-contacts {
+    margin-left: 55px;
+  }
 }
 
   
@@ -740,6 +774,12 @@ span.ant-dot {
   }
   .header__nav {
     display: none;
+  }
+  .main__contacts {
+    width: 100%;
+  }
+  .informatoin__block-contacts {
+    margin-left: 55px;
   }
 }
 
