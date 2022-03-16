@@ -85,6 +85,10 @@ body {
   visibility: hidden;
 }
 
+.main_logo-size {
+  width: 156px;
+  height: 60px;
+}
 
 .container {
   display: flex;
@@ -663,13 +667,15 @@ span.ant-dot {
     margin-left: 55px;
   }
   .main-text__head {
-    max-width: 350px;
+    margin-left: 55px;
+    max-width: 550px;
     font-size: 48px;
     line-height: 100%;
     letter-spacing: 0.04em;
   }
   .main-text__text {
-    max-width: 465px;
+    margin-left: 55px;
+    max-width: 550px;
     font-size: 24px;
     line-height: 26px;
     letter-spacing: 0.04em;
@@ -688,6 +694,34 @@ span.ant-dot {
   }
   .information__footer-text {
     padding-right: 0;
+  }
+  .main__news {
+    align-items: baseline;
+  }
+  .news__link {
+    padding-bottom: 10px;
+  }
+  .news__head {
+    margin-left: 45px;
+    width: 580px;
+    font-size: 52px;
+    line-height: 57px;
+    letter-spacing: 0.07em;
+  }
+  .news__text {
+    margin-left: 45px;
+    width: 530px;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.07em;
+  }
+  .news__link {
+    margin-top: -200px;
+    top: 45px;
+    left: 600px;
+    position: relative;
+    width: 300px;
+    order: 1;
   }
 }
   
@@ -742,6 +776,9 @@ span.ant-dot {
   .information__footer-text {
     padding-right: 0;
   }
+  .news__text {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 491px) and (max-width: 640px) {
@@ -764,6 +801,33 @@ span.ant-dot {
   .informatoin__block-contacts {
     margin-left: 55px;
   }
+  .main-text__head {
+    max-width: 750px;
+    font-size: 35px;
+    line-height: 100%;
+    letter-spacing: 0.04em;
+  }
+  .main-text__text {
+    max-width: 465px;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+  }
+  .nav__link{
+    padding: 15px 35px 15px 35px;
+  }
+  .footer__nav {
+    margin-top: 30px;
+    width: 60%;
+  }
+  .news__text {
+    text-align: center;
+  }
+  .contacts__information {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
   
@@ -777,11 +841,26 @@ span.ant-dot {
   div.ant-carousel-dots {
     padding-left: 0;
   }
+  .nav__link{
+    padding: 15px 25px 15px 25px;
+  }
   .header__nav {
     display: none;
   }
   .main__contacts {
     width: 100%;
+  }
+  .main-text__head {
+    max-width: 350px;
+    font-size: 35px;
+    line-height: 100%;
+    letter-spacing: 0.04em;
+  }
+  .main-text__text {
+    max-width: 465px;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
   }
   .informatoin__block-contacts {
     margin-left: 55px;
