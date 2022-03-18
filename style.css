@@ -373,6 +373,19 @@ span.ant-dot {
   box-sizing: border-box;
 }
 
+.main__books {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.books__card {
+  width: 30%;
+  border: 2px solid var(--color-text);
+  border-radius: 5px;
+}
+
 .news, .nav {
   color: var(--color-text);
   font-family: 'Forum', cursive;
