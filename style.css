@@ -374,16 +374,60 @@ span.ant-dot {
 }
 
 .main__books {
+  box-sizing: border-box;
+  margin-top: 10px;
+  padding-left: 12%;
+  padding-right: 12%;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
+
+.main__link {
+  text-decoration: none;
+  color: var(--color-text);
 }
 
 .books__card {
-  width: 30%;
-  border: 2px solid var(--color-text);
-  border-radius: 5px;
+  margin-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.books__card:hover {
+  /* /* border: 1px solid var(--color-text); */
+  border-radius: 15px;
+  background: radial-gradient(#FFF, #FFFAEB);
+}
+
+.books__name, .books__img, .books__autor, .books__price {
+  margin-top: 25px;
+}
+
+.books__name {
+  padding: 0 15px 0 15px;
+  max-width: 280px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.books__img {
+  width: 170px;
+}
+
+.books__autor {
+  font-size: 22px;
+  text-align: center;
+}
+
+.books__price {
+  color: #AC1919;
+  font-size: 25px;
 }
 
 .news, .nav {
