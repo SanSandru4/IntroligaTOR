@@ -1,5 +1,4 @@
 let booksList = document.querySelector('[data-books-list]');
-// console.log(bookLinkPage);
 
 function appropriate(nod, val) {
   nod.appendChild(val);
@@ -36,7 +35,8 @@ fetch('http://www.introligator.com.ua/books.json')
       }
       appropriate(bookCard, bookPrice);
       bookLinkPage.setAttribute('href', `${data[i].link}`)
+
+      // renderPageInfo(i, numb);
     }
   });
-
 

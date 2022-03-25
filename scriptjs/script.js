@@ -15,6 +15,22 @@ window.addEventListener('load', () => {
     }, 1000);
 });
 
+window.onscroll = function() {
+	scrollFunction();
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("toTop").style.display = "block";
+    } else {
+        document.getElementById("toTop").style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
 
 function Ant(crslId) {
 
@@ -217,7 +233,7 @@ Ant.initialize = function(that) {
 	}
 	else {
 		that.leftArrow.style.display = 'none';
-    that.rightArrow.style.display = 'none'
+    	that.rightArrow.style.display = 'none'
 	};
 
 	if(that.options.dots) {  // инициализация индикаторных точек
