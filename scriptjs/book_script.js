@@ -1,7 +1,9 @@
 let booksList = document.querySelector('[data-books-list]');
+let bookNamePage = document.querySelector('[data-page-head]');
 let bookAutor = document.querySelector('[data-page-autor]');
 let valuePage = document.querySelector('[data-page-info]');
 const numb = valuePage.title;
+let bookImgLarge = document.querySelector('[data-page-image]');
 
 
 function appropriate(nod, val) {
@@ -9,8 +11,13 @@ function appropriate(nod, val) {
 }
 
 function renderPageInfo(d, item, pageId) {
-    if ( item == pageId ) {
-      bookAutor.textContent = `${d[item].autor}`
+    let idet = `${d[item].name}`
+    if ( idet == pageId ) {
+      bookNamePage.textContent = `${d[item].name}`;
+      let bookImg = document.createElement('img');
+      bookImg.setAttribute('src', `${d[item].imagelarge}`);
+      appropriate(bookImgLarge, bookImg);
+      bookAutor.textContent = `${d[item].autor}`;
       let pageAnnotation = document.createElement('p');
       pageAnnotation.classList.add('page__annotation');
       pageAnnotation.textContent = `${d[item].anotation}`;

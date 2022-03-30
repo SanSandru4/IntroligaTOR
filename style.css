@@ -104,7 +104,7 @@ body {
   padding-left: 26px;
   padding-right: 37px;
   width: 100%;
-  height: 80px;
+  height: 85px;
   background-color: var(--color-backgraund-light);
   box-sizing: border-box;
   display: flex;
@@ -239,6 +239,7 @@ body {
 }
 
 .main-text__head, .main-about__head {
+  width: 330px;
 	padding-top: 27px;
 	line-height: 100%;
 }
@@ -459,6 +460,10 @@ span.ant-dot {
   width: 170px;
 }
 
+.books__img:hover, .books__price:hover {
+  transform: scale(1.15);
+}
+
 .books__autor {
   font-size: 22px;
   text-align: center;
@@ -621,7 +626,7 @@ span.ant-dot {
   right: 25px;
   z-index: 99;
   font-size: 15px;
-  border: none;
+  border: 2px solid #FFF;
   outline: none;
   background-color: var(--color-backgraund-light);
   color: var(--color-text);
@@ -650,7 +655,7 @@ span.ant-dot {
   }
   .main__information, .main__data {
     padding: 0;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     width: 1200px;
   }
   .main-text__head, .main-about__head {
@@ -664,14 +669,15 @@ span.ant-dot {
     width: 610px;
   }
   .main-about__head, .main-about__text {
-    width: 90%;
+    width: 70%;
   }
   .main-about__small-head, .main-about__autor {
     font-size: 40px;
     padding-left: 48px;
   }
   .main-about__autor{
-    padding-top: 35px;
+    padding-top: 21px;
+    padding-bottom: 15px;
   }
   .main-text__text {
     font-size: 32px;
@@ -687,7 +693,7 @@ span.ant-dot {
   }
   .book-page__info {
     width: 60%;
-    padding-top: 150px;
+    padding-top: 100px;
   }
   .page__annotation {
     width: 75%;
@@ -853,6 +859,10 @@ span.ant-dot {
     width: 300px;
     order: 1;
   }
+  .main-text__head, .main-about__head {
+    width: 60%;
+    font-size: 38px;
+  }
 }
   
 @media screen and (min-width: 641px) and (max-width: 910px) {
@@ -908,6 +918,10 @@ span.ant-dot {
   }
   .news__text {
     text-align: center;
+  }
+  .main-text__head, .main-about__head {
+    width: 80%;
+    font-size: 38px;
   }
 }
 
