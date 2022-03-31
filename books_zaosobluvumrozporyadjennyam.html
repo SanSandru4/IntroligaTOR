@@ -20,15 +20,15 @@
     <div class="container">
         <header class="header" data-haeder>
             <div class="header__logo logo">
-            <a href="#">
-				<svg class="main_logo-size">
+            <a href="index.html">
+                <svg class="main_logo-size">
 					<use xlink:href="#main_logo"></use>
 				</svg>
             </a>
             </div>
             <div class="header__nav nav-desktop">
                 <a class="nav-desktop__link" href="about.html">ПРО НАС</a>
-                <a class="nav-desktop__link" href="books.html">КНИГИ</a>
+                <a class="nav-desktop__link" href="books.html"><strong>КНИГИ</strong></a>
                 <a class="nav-desktop__link" href="projects.html">ПРОЕКТИ</a>
                 <a class="nav-desktop__link" href="gallery.html">ГАЛЕРЕЯ</a>
                 <a class="nav-desktop__link" href="contacts.html">КОНТАКТИ</a>
@@ -41,7 +41,7 @@
             <div class="header__menu menu-mob" data-menu>
                 <nav>
                     <li>
-                        <a href="#">
+                        <a href="index.html">
                             <svg class="main_logo-size">
 								<use xlink:href="#main_logo"></use>
 							</svg>
@@ -66,56 +66,21 @@
             </div>
         </header>
         <main class="main">
-            <div class="main__information information">
+            <div class="main__data about">
                 <div class="information__main-text main-text">
-                    <h1 class="main-text__head">
-                        ПЕРЕТВОРИМО ВАШ РУКОПИС НА КНИГУ ВАШОЇ МРІЇ
-                    </h1>
-                    <p class="main-text__text">
-                        Розробка оригінал-макету, художнє оформлення, дизайнерське оформлення за Вашим смаком, редакторські та коректорські роботи.
-                    </p>
+                    <h1 class="main-about__head" data-page-head></h1>
+					<h3 class="main-about__autor" data-page-autor></h3>
                 </div>
-                <div class="ant-carousel" data-ant-carousel>
-                    <div class="ant-carousel-hider" data-ant-carousel-hider>
-                    <ul class="ant-carousel-list" data-ant-carousel-list>
-                        <li class="ant-carousel-element" data-ant-carousel-element>
-                            <a class="list__link" href="books_iavanpiddybniy.html">
-                                <img src="image\IvanPiddubniy_236x320.png" alt="1">
-                            </a>
-                        </li>
-                        <li class="ant-carousel-element">
-                            <a class="list__link" href="books_mutropolytlepkivskiy.html">    
-                                <img src="image\MutropolytLepkivskiy_470x640.png" alt="2">
-                            </a>
-                        </li>
-                        <li class="ant-carousel-element">
-                            <a class="list__link" href="books_djuraotamanadahna.html">
-                                <img src="image\DjuraOtamanaDahna_472x640.png" alt="3">
-                            </a>
-                        </li>
-                        <li class="ant-carousel-element">
-                            <a class="list__link" href="books_spokusadzerkal.html">
-                                <img src="image\SpokusaDzerkal_472x640.png" alt="4">
-                            </a>
-                        </li>
-                    </ul>
-                    </div>
-                    <div class="ant-carousel-arrow-left"></div><div class="ant-carousel-arrow-right"></div>
-                    <div class="ant-carousel-dots"></div>
-                </div>
-            </div>
-            <div class="main__news news">
-                <h3 class="news__head">Є-підтримка</h3>
-                <a class="news__link" href="#">
-                    <img class="news__photo" src="image\card_e-pidtrumka.jpg" alt="e-pidtrumka">
-                </a>
-                <p class="news__text">За допомогою <span class="uppercase">"Є-підтримки"</span> у вас є можливість придбати книги нашого видавництва</p>
-            </div>
+				<div class="main-about__book-page ">
+					<div class="book-page__img" data-page-image></div>
+					<div class="book-page__info" title="За особливим розпорядженням" data-page-info></div>
+				</div>
+			</div>
         </main>
         <footer class="footer">
             <div class="footer__logo">
-                <a href="#">
-					<svg class="footer__image main_logo-size">
+                <a href="index.html">
+                    <svg class="footer__image main_logo-size">
 						<use xlink:href="#main_logo"></use>
 					</svg>
                 </a>
@@ -168,7 +133,7 @@
                             </svg>
                         </div>
                         <div class="information__footer-text">
-                            <a class="information__link" href="https://www.facebook.com/vudavintor">
+							<a class="information__link" href="https://www.facebook.com/vudavintor">
 								<p>vudavintor,<br>
                                 @introligator.vudavt</p>
 							</a>
@@ -184,7 +149,8 @@
         </div>
     </div>
    
-    <script src="scriptjs\script.js"></script> 
+    <script src="scriptjs\script.js"></script>
+	<script src="scriptjs\book_script.js"></script> 
     
     <svg display="none">
         <symbol id="point" viewBox="0 0 16 20" xmlns="http://www.w3.org/2000/svg">

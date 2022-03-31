@@ -216,7 +216,7 @@ body {
 }
 
 .main {
-  min-width: 320px;
+  min-width: 100%;
   max-width: 767px;
  	box-sizing: border-box;
 }
@@ -229,6 +229,7 @@ body {
 }
 
 .main__data {
+  box-sizing: border-box;
   padding-bottom: 25px;
 }
 
