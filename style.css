@@ -680,6 +680,12 @@ span.ant-dot {
   box-shadow: 0px 0px 8px var(--color-text);;
 }
 
+
+/* start gallery */
+
+   
+/* end gallery */
+
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
@@ -710,7 +716,7 @@ span.ant-dot {
     width: 610px;
   }
   .main-about__head, .main-about__text {
-    width: 70%;
+    width: 90%;
   }
   .main-about__small-head, .main-about__autor {
     font-size: 40px;
