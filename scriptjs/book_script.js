@@ -15,6 +15,7 @@ function renderPageInfo(d, item, pageId) {
     if ( idet == pageId ) {
       bookNamePage.textContent = `${d[item].name}`;
       let bookImg = document.createElement('img');
+      bookImg.classList.add('book-page__photo-book');
       bookImg.setAttribute('src', `${d[item].imagelarge}`);
       appropriate(bookImgLarge, bookImg);
       bookAutor.textContent = `${d[item].autor}`;

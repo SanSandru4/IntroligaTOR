@@ -240,7 +240,7 @@ body {
 }
 
 .main-text__head, .main-about__head {
-  width: 330px;
+  width: 80%;
 	padding-top: 27px;
 	line-height: 100%;
 }
@@ -277,11 +277,15 @@ body {
 }
 
 .book-page__photo {
-  width: 100%;
+  width: 82%;
+}
+
+.book-page__photo-book {
+  width: 80%;
 }
 
 .page__annotation, .page__isbn, .page__num-page {
-  width: 90%;
+  width: 80%;
   font-size: 20px;
 }
 
@@ -452,6 +456,66 @@ span.ant-dot {
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
+}
+
+.news__zsu {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.zsu {
+  color: #130D1C;
+} 
+
+.blue, .yello {
+  width: 100%;
+  height: 17px;
+}
+
+.blue {
+  background-color: #07ACF3;
+}
+
+.yello {
+  background-color: #EFF307;
+}
+
+.pro-ukrainu {
+  margin-top: -25px;
+  text-align: center;
+  font-size: 35px;
+  line-height: 39px;
+  letter-spacing: 0.07em;
+  color: #FFF;
+  -webkit-text-stroke: 0.5px #AC1919;
+}
+
+.geroi {
+  margin-top: -50px;
+}
+
+.zsu__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.zsu__text {
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 32px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.zsu__image {
+  margin-bottom: 25px;
 }
 
 .main__books {
@@ -762,9 +826,6 @@ span.ant-dot {
     padding-left: 0;
   }
   .main__news {
-    padding-left: 120px;
-    padding-bottom: 60px;
-    width: 50%;
     flex-wrap: wrap;
     align-items: flex-start;
   }
@@ -822,6 +883,29 @@ span.ant-dot {
   }
   .information__footer-text {
     padding-right: 0;
+  }
+  .news__zsu {
+    background-image: url("image/background_zsu_tablet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .geroi {
+    margin-top: -25px;
+  }
+  .zsu__info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .zsu__text {
+    padding-left: 55px;
+    padding-right: 55px;
+    width: 70%;
+    text-align: left;
+  }
+  .zsu__image {
+    width: 100%;
+    margin-bottom: 25px;
   }
 }
 
@@ -910,6 +994,19 @@ span.ant-dot {
     width: 60%;
     font-size: 38px;
   }
+  .geroi {
+    margin-top: -25px;
+  }
+  .zsu__info {
+    display: flex;
+    flex-direction: row;
+  }
+  .zsu__text {
+    text-align: left;
+  }
+  .zsu__image {
+    margin-bottom: 25px;
+  }
 }
   
 @media screen and (min-width: 641px) and (max-width: 910px) {
@@ -969,6 +1066,9 @@ span.ant-dot {
   .main-text__head, .main-about__head {
     width: 80%;
     font-size: 38px;
+  }
+  .geroi {
+    margin-top: -25px;
   }
 }
 
