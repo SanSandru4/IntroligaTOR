@@ -223,7 +223,7 @@ body {
 
 .main__information {
 	padding-bottom: 25px;
-  background-image: url("image/backgraundfon_mob.jpg");
+  background-image: url("images/backgraundfon_mob.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -410,14 +410,14 @@ div.ant-carousel-arrow-left {
   left: 20px;
   top: 40%;
   display: block;
-  background: url("image/ant-arrow-left.png") no-repeat;
+  background: url("images/ant-arrow-left.png") no-repeat;
 }
 
 div.ant-carousel-arrow-right {
   right: 0;
   top: 40%;
   display: block;
-  background: url("image/ant-arrow-right.png") no-repeat;
+  background: url("images/ant-arrow-right.png") no-repeat;
 }
 
 div.ant-carousel-arrow-left:hover {
@@ -503,7 +503,7 @@ span.ant-dot {
 }
 
 .zsu__text {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   padding-left: 10px;
   padding-right: 10px;
   width: 100%;
@@ -762,7 +762,7 @@ span.ant-dot {
     max-width: 1204px;
   }
   .main__information {
-    background-image: url("image/backgraundfon_desktop.jpg");
+    background-image: url("images/backgraundfon_desktop.jpg");
   }
   .main__information, .main__data {
     padding: 0;
@@ -885,7 +885,7 @@ span.ant-dot {
     padding-right: 0;
   }
   .news__zsu {
-    background-image: url("image/background_zsu_tablet.jpg");
+    background-image: url("images/background_zsu_tablet.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -928,7 +928,7 @@ span.ant-dot {
   }
   .main__information {
     padding: 0;
-    background-image: url("image/backgraundfon_desktop.jpg");
+    background-image: url("images/backgraundfon_desktop.jpg");
   }
   .main__contacts {
     width: 80%;
@@ -1001,7 +1001,7 @@ span.ant-dot {
     margin-top: -25px;
   }
   .news__zsu {
-    background-image: url("image/background_zsu_tablet.jpg");
+    background-image: url("images/background_zsu_tablet.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -1039,7 +1039,7 @@ span.ant-dot {
   }
   .main__information {
     padding: 0;
-    background-image: url("image/backgraundfon_tablet.jpg");
+    background-image: url("images/backgraundfon_tablet.jpg");
   }
   .main__contacts {
     width: 100%;
